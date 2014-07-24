@@ -11,9 +11,7 @@ ZDCoverTipView create a guide view easily.
 * no ios version limit
 
 ## Examples
-
-The repo includes the following example projects that can be used as templates or for testing purposes
-* RevealTableViewCellExample.xcodeproj
+<!--
 
 ![Image](https://raw.github.com/John-Lluch/SWRevealTableViewCell/master/SWRevealTableViewCellImage0.png)
     
@@ -23,73 +21,35 @@ The repo includes the following example projects that can be used as templates o
     
 ![Image](https://raw.github.com/John-Lluch/SWRevealTableViewCell/master/SWRevealTableViewCellImage3.png)
 
+-->
+
 
 ## Requirements
 
-* iOS 7.0 or later.
+* iOS 4.0 or later.
 * Objective-C, ARC.
 
 ## Usage
 
-The SWRevealTableViewCell repository attempts to provide an updated cocoaPods file and consistent tag versioning, but it is not actively updated on the cocoapods-specs repository.
+improt
+* ZDCoverTipView.h
+* ZDCoverTipView.m
 
-The easiest way to install it is by copying the following to your project:
-* SWRevealTableViewCell.h
-* SWRevealTableViewCell.m
 
-On your project:
-* Initialize instances of SWRevealTableViewCell on your cellForRowAtIndexPath or register the SWRevealTableViewCell for use with you table view
-* In cellForRowAtIndexPath set the dataSource and optionally the delegate for SWRevealTableViewCell instances.
-* Implement the following two datasource methods to return an array of SWCellButtonItems
-    - (NSArray*)leftButtonItemsInRevealTableViewCell:(SWRevealTableViewCell *)revealTableViewCell 
-    - (NSArray*)rightButtonItemsInRevealTableViewCell:(SWRevealTableViewCell *)revealTableViewCell
+## how to use
 
-## Basic API Description
+Create a Tip View
 
-Registering a SWRevealTableViewCell for use on your tableView
+    ZDCoverTipView *tip = [[ZDCoverTipView alloc] initWithBlurRadius:10.0f revealView:_button revealType:_typeSwitch.on?ZDRevealTypeOval:ZDRevealTypeRect];
 
-    [tableView registerClass:[SWRevealTableViewCell class] forCellReuseIdentifier:RevealCellReuseIdentifier];
-
-Creating cell instances
+show it
     
-    - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-    {
-        SWRevealTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:RevealCellReuseIdentifier forIndexPath:indexPath];
+    [tip showInView:self.view];
 
-        cell.dataSource = self;
-        .
-        .
-    }
-
-Providing button items
-
-    - (NSArray*)rightButtonItemsInRevealTableViewCell:(SWRevealTableViewCell *)revealTableViewCell
-    {
-        SWCellButtonItem *item1 = [SWCellButtonItem itemWithTitle:@"Delete" handler:^(SWCellButtonItem *item, SWRevealTableViewCell *cell)
-        {
-            NSLog( @"Delete");
-        }];
-    
-        item1.backgroundColor = [UIColor redColor];
-        item1.tintColor = [UIColor whiteColor];
-        item1.width = 75;
-        
-        return @[item1];
-    }
-
-Programmatic animation of left/right items. Position can be: `SWCellRevealPositionLeft`, `SWCellRevealPositionCenter`, `SWCellRevealPositionRight`
-
-    - (void)setRevealPosition:(SWCellRevealPosition)revealPosition animated:(BOOL)animated;
-	
-Other methods are documented in the SWRevealTableViewCell.h header file.
-
-## Release Notes
-
-Release Notes are updated on the class main header file. Please see `SWRevealTableViewCell.h`
 
 ## License
 
-Copyright (c) 2013 Joan Lluch <joan.lluch@sweetwilliamsl.com>
+Copyright (c) 2014 zhuchao <nono0313@163.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

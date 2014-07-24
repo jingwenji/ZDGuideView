@@ -51,7 +51,7 @@
 
 - (void)drawRect:(CGRect)rect
 {
-    NSLog(@"drawing.....");
+//    NSLog(@"drawing.....");
     if (!_bgImage) {
         return;
     }
@@ -81,7 +81,7 @@
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
 {
-    NSLog(@"hitTest");
+//    NSLog(@"hitTest");
     UIView *view = [super hitTest:point withEvent:event];
     CGRect viewRect = [self revealRect];
     [self remove];
