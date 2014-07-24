@@ -1,31 +1,14 @@
-# SWRevealTableViewCell
+# ZDCoverTipView
 
-SWRevealTableViewCell is UITableViewCell subclass to easily display left and right buttons based on user pan gestures or developer programmatic actions. Similar to the mail app and but with enhanced features.
+ZDCoverTipView create a guide view easily.
+
 
 ## Features
 
-* Support for any combination of left/right utility buttons.
-* Full in and out animations of utility buttons with damper effect.
-* Buttons are specified by providing an array of SWCellButtonItems, similar to UIToolBarItems.
-* Items can have text, images or both.
-* Configurable item sizes on an individual basis.
-* Item action is provided by calling a handler block.
-* Convenience UIActionSheet category method 'showFromCellButtonItem:animated:' to display menus from items
-* Correct handling of rotations, and cell/table resizing.
-* No issues with transparency, background colors or images on cells or table views.
-* No issues with accessory views on cells.
-* Support for iOS7 and iOS8
-* API easier than a UIToolbar.
-* Seamless integration of a pan gesture recognizer, behaving as smooth as silk.
-* Comprehensive set of delegate methods for getting full state of the controller and implementing your own code hooks for customizing behavior.
-* Lightweight, clean, easy-to-read, self-documenting code that you will enjoy using in your projects.
-
-## YouTube Videos
-
-[http://youtu.be/jlaWQsWinoU (new)](http://youtu.be/jlaWQsWinoU)
-
-[http://youtu.be/v6GAGdf_Kkg](http://youtu.be/v6GAGdf_Kkg)
-
+* esay to use
+* without UE image
+* light weight
+* no ios version limit
 
 ## Examples
 
