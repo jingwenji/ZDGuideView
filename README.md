@@ -11,17 +11,14 @@ ZDCoverTipView create a guide view easily.
 * no ios version limit
 
 ## Examples
-<!--
 
-![Image](https://raw.github.com/John-Lluch/SWRevealTableViewCell/master/SWRevealTableViewCellImage0.png)
+![Image](https://github.com/hai00jiao/ZDCoverTipView/blob/master/IMG_0599.PNG)
     
-![Image](https://raw.github.com/John-Lluch/SWRevealTableViewCell/master/SWRevealTableViewCellImage2.png)
+![Image](https://github.com/hai00jiao/ZDCoverTipView/blob/master/IMG_0600.PNG)
     
-![Image](https://raw.github.com/John-Lluch/SWRevealTableViewCell/master/SWRevealTableViewCellImage1.png)
+![Image](https://github.com/hai00jiao/ZDCoverTipView/blob/master/IMG_0601.PNG)
     
-![Image](https://raw.github.com/John-Lluch/SWRevealTableViewCell/master/SWRevealTableViewCellImage3.png)
-
--->
+![Image](https://github.com/hai00jiao/ZDCoverTipView/blob/master/IMG_0602.PNG)
 
 
 ## Requirements
