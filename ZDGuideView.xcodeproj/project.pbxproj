@@ -21,7 +21,7 @@
 		E1B671D719810B4E001E4564 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B671B919810B4E001E4564 /* UIKit.framework */; };
 		E1B671DF19810B4E001E4564 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1B671DD19810B4E001E4564 /* InfoPlist.strings */; };
 		E1B671E119810B4E001E4564 /* ZDCoverTipViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B671E019810B4E001E4564 /* ZDCoverTipViewTests.m */; };
-		E1B671ED19810B73001E4564 /* ZDCoverTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B671EC19810B73001E4564 /* ZDCoverTipView.m */; };
+		E1B671ED19810B73001E4564 /* ZDGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B671EC19810B73001E4564 /* ZDGuideView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,27 +35,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E1B671B219810B4E001E4564 /* ZDCoverTipView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDCoverTipView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B671B219810B4E001E4564 /* ZDGuideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDGuideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B671B519810B4E001E4564 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E1B671B719810B4E001E4564 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E1B671B919810B4E001E4564 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E1B671BD19810B4E001E4564 /* ZDCoverTipView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZDCoverTipView-Info.plist"; sourceTree = "<group>"; };
+		E1B671BD19810B4E001E4564 /* ZDGuideView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZDGuideView-Info.plist"; sourceTree = "<group>"; };
 		E1B671BF19810B4E001E4564 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1B671C119810B4E001E4564 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E1B671C319810B4E001E4564 /* ZDCoverTipView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZDCoverTipView-Prefix.pch"; sourceTree = "<group>"; };
+		E1B671C319810B4E001E4564 /* ZDGuideView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZDGuideView-Prefix.pch"; sourceTree = "<group>"; };
 		E1B671C419810B4E001E4564 /* ZDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDAppDelegate.h; sourceTree = "<group>"; };
 		E1B671C519810B4E001E4564 /* ZDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDAppDelegate.m; sourceTree = "<group>"; };
 		E1B671C819810B4E001E4564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1B671CA19810B4E001E4564 /* ZDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDViewController.h; sourceTree = "<group>"; };
 		E1B671CB19810B4E001E4564 /* ZDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDViewController.m; sourceTree = "<group>"; };
 		E1B671CD19810B4E001E4564 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E1B671D319810B4E001E4564 /* ZDCoverTipViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDCoverTipViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B671D319810B4E001E4564 /* ZDGuideViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDGuideViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B671D419810B4E001E4564 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E1B671DC19810B4E001E4564 /* ZDCoverTipViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZDCoverTipViewTests-Info.plist"; sourceTree = "<group>"; };
+		E1B671DC19810B4E001E4564 /* ZDGuideViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZDGuideViewTests-Info.plist"; sourceTree = "<group>"; };
 		E1B671DE19810B4E001E4564 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1B671E019810B4E001E4564 /* ZDCoverTipViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDCoverTipViewTests.m; sourceTree = "<group>"; };
-		E1B671EB19810B73001E4564 /* ZDCoverTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCoverTipView.h; sourceTree = "<group>"; };
-		E1B671EC19810B73001E4564 /* ZDCoverTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCoverTipView.m; sourceTree = "<group>"; };
+		E1B671EB19810B73001E4564 /* ZDGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDGuideView.h; sourceTree = "<group>"; };
+		E1B671EC19810B73001E4564 /* ZDGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDGuideView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +95,8 @@
 		E1B671B319810B4E001E4564 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1B671B219810B4E001E4564 /* ZDCoverTipView.app */,
-				E1B671D319810B4E001E4564 /* ZDCoverTipViewTests.xctest */,
+				E1B671B219810B4E001E4564 /* ZDGuideView.app */,
+				E1B671D319810B4E001E4564 /* ZDGuideViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,7 +115,7 @@
 		E1B671BB19810B4E001E4564 /* ZDCoverTipView */ = {
 			isa = PBXGroup;
 			children = (
-				E1B671EA19810B73001E4564 /* ZDCoverTipView */,
+				E1B671EA19810B73001E4564 /* ZDGudieView */,
 				E1B671C419810B4E001E4564 /* ZDAppDelegate.h */,
 				E1B671C519810B4E001E4564 /* ZDAppDelegate.m */,
 				E1B671C719810B4E001E4564 /* Main.storyboard */,
@@ -130,10 +130,10 @@
 		E1B671BC19810B4E001E4564 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E1B671BD19810B4E001E4564 /* ZDCoverTipView-Info.plist */,
+				E1B671BD19810B4E001E4564 /* ZDGuideView-Info.plist */,
 				E1B671BE19810B4E001E4564 /* InfoPlist.strings */,
 				E1B671C119810B4E001E4564 /* main.m */,
-				E1B671C319810B4E001E4564 /* ZDCoverTipView-Prefix.pch */,
+				E1B671C319810B4E001E4564 /* ZDGuideView-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,27 +150,28 @@
 		E1B671DB19810B4E001E4564 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E1B671DC19810B4E001E4564 /* ZDCoverTipViewTests-Info.plist */,
+				E1B671DC19810B4E001E4564 /* ZDGuideViewTests-Info.plist */,
 				E1B671DD19810B4E001E4564 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E1B671EA19810B73001E4564 /* ZDCoverTipView */ = {
+		E1B671EA19810B73001E4564 /* ZDGudieView */ = {
 			isa = PBXGroup;
 			children = (
-				E1B671EB19810B73001E4564 /* ZDCoverTipView.h */,
-				E1B671EC19810B73001E4564 /* ZDCoverTipView.m */,
+				E1B671EB19810B73001E4564 /* ZDGuideView.h */,
+				E1B671EC19810B73001E4564 /* ZDGuideView.m */,
 			);
+			name = ZDGudieView;
 			path = ZDCoverTipView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E1B671B119810B4E001E4564 /* ZDCoverTipView */ = {
+		E1B671B119810B4E001E4564 /* ZDGuideView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1B671E419810B4E001E4564 /* Build configuration list for PBXNativeTarget "ZDCoverTipView" */;
+			buildConfigurationList = E1B671E419810B4E001E4564 /* Build configuration list for PBXNativeTarget "ZDGuideView" */;
 			buildPhases = (
 				E1B671AE19810B4E001E4564 /* Sources */,
 				E1B671AF19810B4E001E4564 /* Frameworks */,
@@ -180,14 +181,14 @@
 			);
 			dependencies = (
 			);
-			name = ZDCoverTipView;
+			name = ZDGuideView;
 			productName = ZDCoverTipView;
-			productReference = E1B671B219810B4E001E4564 /* ZDCoverTipView.app */;
+			productReference = E1B671B219810B4E001E4564 /* ZDGuideView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E1B671D219810B4E001E4564 /* ZDCoverTipViewTests */ = {
+		E1B671D219810B4E001E4564 /* ZDGuideViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1B671E719810B4E001E4564 /* Build configuration list for PBXNativeTarget "ZDCoverTipViewTests" */;
+			buildConfigurationList = E1B671E719810B4E001E4564 /* Build configuration list for PBXNativeTarget "ZDGuideViewTests" */;
 			buildPhases = (
 				E1B671CF19810B4E001E4564 /* Sources */,
 				E1B671D019810B4E001E4564 /* Frameworks */,
@@ -198,9 +199,9 @@
 			dependencies = (
 				E1B671D919810B4E001E4564 /* PBXTargetDependency */,
 			);
-			name = ZDCoverTipViewTests;
+			name = ZDGuideViewTests;
 			productName = ZDCoverTipViewTests;
-			productReference = E1B671D319810B4E001E4564 /* ZDCoverTipViewTests.xctest */;
+			productReference = E1B671D319810B4E001E4564 /* ZDGuideViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E1B671AD19810B4E001E4564 /* Build configuration list for PBXProject "ZDCoverTipView" */;
+			buildConfigurationList = E1B671AD19810B4E001E4564 /* Build configuration list for PBXProject "ZDGuideView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,8 +232,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E1B671B119810B4E001E4564 /* ZDCoverTipView */,
-				E1B671D219810B4E001E4564 /* ZDCoverTipViewTests */,
+				E1B671B119810B4E001E4564 /* ZDGuideView */,
+				E1B671D219810B4E001E4564 /* ZDGuideViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1B671ED19810B73001E4564 /* ZDCoverTipView.m in Sources */,
+				E1B671ED19810B73001E4564 /* ZDGuideView.m in Sources */,
 				E1B671CC19810B4E001E4564 /* ZDViewController.m in Sources */,
 				E1B671C619810B4E001E4564 /* ZDAppDelegate.m in Sources */,
 				E1B671C219810B4E001E4564 /* main.m in Sources */,
@@ -283,7 +284,7 @@
 /* Begin PBXTargetDependency section */
 		E1B671D919810B4E001E4564 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E1B671B119810B4E001E4564 /* ZDCoverTipView */;
+			target = E1B671B119810B4E001E4564 /* ZDGuideView */;
 			targetProxy = E1B671D819810B4E001E4564 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,9 +393,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZDCoverTipView/ZDCoverTipView-Prefix.pch";
-				INFOPLIST_FILE = "ZDCoverTipView/ZDCoverTipView-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ZDCoverTipView/ZDGuideView-Prefix.pch";
+				INFOPLIST_FILE = "ZDCoverTipView/ZDGuideView-Info.plist";
+				PRODUCT_NAME = ZDGuideView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,9 +406,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZDCoverTipView/ZDCoverTipView-Prefix.pch";
-				INFOPLIST_FILE = "ZDCoverTipView/ZDCoverTipView-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ZDCoverTipView/ZDGuideView-Prefix.pch";
+				INFOPLIST_FILE = "ZDCoverTipView/ZDGuideView-Info.plist";
+				PRODUCT_NAME = ZDGuideView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -427,8 +428,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ZDCoverTipViewTests/ZDCoverTipViewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ZDCoverTipViewTests/ZDGuideViewTests-Info.plist";
+				PRODUCT_NAME = ZDGuideViewTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -445,8 +446,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZDCoverTipView/ZDCoverTipView-Prefix.pch";
-				INFOPLIST_FILE = "ZDCoverTipViewTests/ZDCoverTipViewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ZDCoverTipViewTests/ZDGuideViewTests-Info.plist";
+				PRODUCT_NAME = ZDGuideViewTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -455,7 +456,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1B671AD19810B4E001E4564 /* Build configuration list for PBXProject "ZDCoverTipView" */ = {
+		E1B671AD19810B4E001E4564 /* Build configuration list for PBXProject "ZDGuideView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1B671E219810B4E001E4564 /* Debug */,
@@ -464,21 +465,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1B671E419810B4E001E4564 /* Build configuration list for PBXNativeTarget "ZDCoverTipView" */ = {
+		E1B671E419810B4E001E4564 /* Build configuration list for PBXNativeTarget "ZDGuideView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1B671E519810B4E001E4564 /* Debug */,
 				E1B671E619810B4E001E4564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E1B671E719810B4E001E4564 /* Build configuration list for PBXNativeTarget "ZDCoverTipViewTests" */ = {
+		E1B671E719810B4E001E4564 /* Build configuration list for PBXNativeTarget "ZDGuideViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1B671E819810B4E001E4564 /* Debug */,
 				E1B671E919810B4E001E4564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

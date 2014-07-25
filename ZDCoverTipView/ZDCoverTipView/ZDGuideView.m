@@ -1,18 +1,18 @@
 //
-//  ZDCoverTipView.m
+//  ZDGuideView.m
 //  DrawLine
 //
 //  Created by zhuchao on 14-7-24.
 //  Copyright (c) 2014年 baidu. All rights reserved.
 //
 
-#import "ZDCoverTipView.h"
+#import "ZDGuideView.h"
 #import <Accelerate/Accelerate.h>
 
 #import <Availability.h>
 
 
-@interface ZDCoverTipView()
+@interface ZDGuideView()
 @property(nonatomic,strong) UIColor *bgColor;
 @property(nonatomic,weak) UIView *revealView;
 @property(nonatomic,assign) ZDRevealType revealType;
@@ -21,7 +21,7 @@
 @property(nonatomic,assign) CGFloat blurRadius;
 @end
 
-@implementation ZDCoverTipView
+@implementation ZDGuideView
 
 
 - (instancetype)initWithBgColor:(UIColor *)aColor revealView:(UIView *)aView revealType:(ZDRevealType)aType

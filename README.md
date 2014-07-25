@@ -13,11 +13,11 @@ ZDCoverTipView create a guide view easily.
 ## Examples
 
 ![Image](https://github.com/hai00jiao/ZDCoverTipView/blob/master/IMG_0599.PNG)
-    
+
 ![Image](https://github.com/hai00jiao/ZDCoverTipView/blob/master/IMG_0600.PNG)
-    
+
 ![Image](https://github.com/hai00jiao/ZDCoverTipView/blob/master/IMG_0601.PNG)
-    
+
 ![Image](https://github.com/hai00jiao/ZDCoverTipView/blob/master/IMG_0602.PNG)
 
 

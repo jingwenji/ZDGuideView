@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1B671B119810B4E001E4564"
                BuildableName = "ZDCoverTipView.app"
-               BlueprintName = "ZDCoverTipView"
-               ReferencedContainer = "container:ZDCoverTipView.xcodeproj">
+               BlueprintName = "ZDGuideView"
+               ReferencedContainer = "container:ZDGuideView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1B671D219810B4E001E4564"
                BuildableName = "ZDCoverTipViewTests.xctest"
-               BlueprintName = "ZDCoverTipViewTests"
-               ReferencedContainer = "container:ZDCoverTipView.xcodeproj">
+               BlueprintName = "ZDGuideViewTests"
+               ReferencedContainer = "container:ZDGuideView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1B671B119810B4E001E4564"
             BuildableName = "ZDCoverTipView.app"
-            BlueprintName = "ZDCoverTipView"
-            ReferencedContainer = "container:ZDCoverTipView.xcodeproj">
+            BlueprintName = "ZDGuideView"
+            ReferencedContainer = "container:ZDGuideView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1B671B119810B4E001E4564"
             BuildableName = "ZDCoverTipView.app"
-            BlueprintName = "ZDCoverTipView"
-            ReferencedContainer = "container:ZDCoverTipView.xcodeproj">
+            BlueprintName = "ZDGuideView"
+            ReferencedContainer = "container:ZDGuideView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1B671B119810B4E001E4564"
             BuildableName = "ZDCoverTipView.app"
-            BlueprintName = "ZDCoverTipView"
-            ReferencedContainer = "container:ZDCoverTipView.xcodeproj">
+            BlueprintName = "ZDGuideView"
+            ReferencedContainer = "container:ZDGuideView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

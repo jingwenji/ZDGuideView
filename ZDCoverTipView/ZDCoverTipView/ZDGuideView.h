@@ -1,5 +1,5 @@
 //
-//  ZDCoverTipView.h
+//  ZDGuideView.h
 //  DrawLine
 //
 //  Created by zhuchao on 14-7-24.
@@ -13,7 +13,7 @@ typedef NS_ENUM(NSUInteger, ZDRevealType) {
     ZDRevealTypeOval//椭圆
 };
 
-@interface ZDCoverTipView : UIView
+@interface ZDGuideView : UIView
 
 
 //下面这两个值用来调节圈圈的长宽尺寸,使它达到想要的包裹范围

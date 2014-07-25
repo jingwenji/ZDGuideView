@@ -1,6 +1,6 @@
 //
-//  ZDCoverTipViewTests.m
-//  ZDCoverTipViewTests
+//  ZDGuideViewTests.m
+//  ZDGuideViewTests
 //
 //  Created by zhuchao on 14-7-24.
 //  Copyright (c) 2014年 baidu. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ZDCoverTipViewTests : XCTestCase
+@interface ZDGuideViewTests : XCTestCase
 
 @end
 
-@implementation ZDCoverTipViewTests
+@implementation ZDGuideViewTests
 
 - (void)setUp
 {

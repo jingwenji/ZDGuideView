@@ -1,13 +1,13 @@
 //
 //  ZDViewController.m
-//  ZDCoverTipView
+//  ZDGuideView
 //
 //  Created by zhuchao on 14-7-24.
 //  Copyright (c) 2014年 baidu. All rights reserved.
 //
 
 #import "ZDViewController.h"
-#import "ZDCoverTipView.h"
+#import "ZDGuideView.h"
 
 @interface ZDViewController ()
 @property(nonatomic,strong) IBOutlet UILabel *label;
@@ -35,7 +35,7 @@
 
 - (IBAction)showLableCover:(id)sender
 {
-    ZDCoverTipView *tip = [[ZDCoverTipView alloc] initWithBgColor:[UIColor colorWithWhite:0.0f alpha:0.5f] revealView:_label revealType:_typeSwitch.on?ZDRevealTypeOval:ZDRevealTypeRect];
+    ZDGuideView *tip = [[ZDGuideView alloc] initWithBgColor:[UIColor colorWithWhite:0.0f alpha:0.5f] revealView:_label revealType:_typeSwitch.on?ZDRevealTypeOval:ZDRevealTypeRect];
     tip.insetY = -5.0f;
     tip.insetX = -5.0f;
     [tip showInView:self.view];
@@ -43,7 +43,7 @@
 
 - (IBAction)showButtonCover:(id)sender
 {
-    ZDCoverTipView *tip = [[ZDCoverTipView alloc] initWithBlurRadius:10.0f revealView:_button revealType:_typeSwitch.on?ZDRevealTypeOval:ZDRevealTypeRect];
+    ZDGuideView *tip = [[ZDGuideView alloc] initWithBlurRadius:10.0f revealView:_button revealType:_typeSwitch.on?ZDRevealTypeOval:ZDRevealTypeRect];
     tip.insetY = -8.0f;
     tip.insetX = -8.0f;
     [tip showInView:self.view];
@@ -52,7 +52,7 @@
 
 - (IBAction)showLongBtnCover:(id)sender
 {
-    ZDCoverTipView *tip = [[ZDCoverTipView alloc] initWithBgColor:[UIColor colorWithWhite:0.0f alpha:0.5f] revealView:_buttonLong revealType:_typeSwitch.on?ZDRevealTypeOval:ZDRevealTypeRect];
+    ZDGuideView *tip = [[ZDGuideView alloc] initWithBgColor:[UIColor colorWithWhite:0.0f alpha:0.5f] revealView:_buttonLong revealType:_typeSwitch.on?ZDRevealTypeOval:ZDRevealTypeRect];
     tip.insetY = -15.0f;
     tip.insetX = -15.0f;
     [tip showInView:self.view];
