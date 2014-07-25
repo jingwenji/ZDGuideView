@@ -151,6 +151,19 @@
     return CGRectMake(rect.origin.x - (newSize.width - rect.size.width)/2.0f, rect.origin.y - (newSize.height - rect.size.height)/2.0f, newSize.width, newSize.height);
 }
 
+- (CGRect)currentRevealFrame
+{
+    switch (_revealType) {
+        case ZDRevealTypeRect:
+            return [self revealRect];
+        case ZDRevealTypeOval:
+            return [self ovalRect];
+        default:
+            break;
+    }
+    return CGRectZero;
+}
+
 #pragma mark - Image
 
 + (UIImage *)zd_imageWithColor:(UIColor *)color
