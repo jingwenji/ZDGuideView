@@ -85,8 +85,8 @@
 		E1B671A919810B4E001E4564 = {
 			isa = PBXGroup;
 			children = (
-				E1B671BB19810B4E001E4564 /* ZDCoverTipView */,
-				E1B671DA19810B4E001E4564 /* ZDCoverTipViewTests */,
+				E1B671BB19810B4E001E4564 /* ZDGuideView */,
+				E1B671DA19810B4E001E4564 /* ZDGuideViewTests */,
 				E1B671B419810B4E001E4564 /* Frameworks */,
 				E1B671B319810B4E001E4564 /* Products */,
 			);
@@ -112,7 +112,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E1B671BB19810B4E001E4564 /* ZDCoverTipView */ = {
+		E1B671BB19810B4E001E4564 /* ZDGuideView */ = {
 			isa = PBXGroup;
 			children = (
 				E1B671EA19810B73001E4564 /* ZDGudieView */,
@@ -124,7 +124,7 @@
 				E1B671CD19810B4E001E4564 /* Images.xcassets */,
 				E1B671BC19810B4E001E4564 /* Supporting Files */,
 			);
-			path = ZDCoverTipView;
+			path = ZDGuideView;
 			sourceTree = "<group>";
 		};
 		E1B671BC19810B4E001E4564 /* Supporting Files */ = {
@@ -138,13 +138,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E1B671DA19810B4E001E4564 /* ZDCoverTipViewTests */ = {
+		E1B671DA19810B4E001E4564 /* ZDGuideViewTests */ = {
 			isa = PBXGroup;
 			children = (
 				E1B671E019810B4E001E4564 /* ZDCoverTipViewTests.m */,
 				E1B671DB19810B4E001E4564 /* Supporting Files */,
 			);
-			path = ZDCoverTipViewTests;
+			path = ZDGuideViewTests;
 			sourceTree = "<group>";
 		};
 		E1B671DB19810B4E001E4564 /* Supporting Files */ = {
@@ -393,8 +393,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZDCoverTipView/ZDGuideView-Prefix.pch";
-				INFOPLIST_FILE = "ZDCoverTipView/ZDGuideView-Info.plist";
+				GCC_PREFIX_HEADER = "ZDGuideView/ZDGuideView-Prefix.pch";
+				INFOPLIST_FILE = "ZDGuideView/ZDGuideView-Info.plist";
 				PRODUCT_NAME = ZDGuideView;
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,8 +406,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZDCoverTipView/ZDGuideView-Prefix.pch";
-				INFOPLIST_FILE = "ZDCoverTipView/ZDGuideView-Info.plist";
+				GCC_PREFIX_HEADER = "ZDGuideView/ZDGuideView-Prefix.pch";
+				INFOPLIST_FILE = "ZDGuideView/ZDGuideView-Info.plist";
 				PRODUCT_NAME = ZDGuideView;
 				WRAPPER_EXTENSION = app;
 			};
@@ -416,19 +416,19 @@
 		E1B671E819810B4E001E4564 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZDCoverTipView.app/ZDCoverTipView";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZDGuideView.app/ZDGuideView";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZDCoverTipView/ZDCoverTipView-Prefix.pch";
+				GCC_PREFIX_HEADER = "ZDGuideView/ZDGuideView-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ZDCoverTipViewTests/ZDGuideViewTests-Info.plist";
+				INFOPLIST_FILE = "ZDGuideViewTests/ZDGuideViewTests-Info.plist";
 				PRODUCT_NAME = ZDGuideViewTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -438,15 +438,15 @@
 		E1B671E919810B4E001E4564 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZDCoverTipView.app/ZDCoverTipView";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZDGuideView.app/ZDGuideView";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZDCoverTipView/ZDCoverTipView-Prefix.pch";
-				INFOPLIST_FILE = "ZDCoverTipViewTests/ZDGuideViewTests-Info.plist";
+				GCC_PREFIX_HEADER = "ZDGuideView/ZDGuideView-Prefix.pch";
+				INFOPLIST_FILE = "ZDGuideViewTests/ZDGuideViewTests-Info.plist";
 				PRODUCT_NAME = ZDGuideViewTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1B671B119810B4E001E4564"
-               BuildableName = "ZDCoverTipView.app"
+               BuildableName = "ZDGuideView.app"
                BlueprintName = "ZDGuideView"
                ReferencedContainer = "container:ZDGuideView.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1B671D219810B4E001E4564"
-               BuildableName = "ZDCoverTipViewTests.xctest"
+               BuildableName = "ZDGuideViewTests.xctest"
                BlueprintName = "ZDGuideViewTests"
                ReferencedContainer = "container:ZDGuideView.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1B671B119810B4E001E4564"
-            BuildableName = "ZDCoverTipView.app"
+            BuildableName = "ZDGuideView.app"
             BlueprintName = "ZDGuideView"
             ReferencedContainer = "container:ZDGuideView.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1B671B119810B4E001E4564"
-            BuildableName = "ZDCoverTipView.app"
+            BuildableName = "ZDGuideView.app"
             BlueprintName = "ZDGuideView"
             ReferencedContainer = "container:ZDGuideView.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1B671B119810B4E001E4564"
-            BuildableName = "ZDCoverTipView.app"
+            BuildableName = "ZDGuideView.app"
             BlueprintName = "ZDGuideView"
             ReferencedContainer = "container:ZDGuideView.xcodeproj">
          </BuildableReference>
