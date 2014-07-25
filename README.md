@@ -1,6 +1,6 @@
-# ZDCoverTipView
+# ZDGuideView
 
-ZDCoverTipView create a guide view easily.
+ZDGuideView create a guide view easily.
 
 
 ## Features
@@ -12,13 +12,13 @@ ZDCoverTipView create a guide view easily.
 
 ## Examples
 
-![Image](https://github.com/hai00jiao/ZDCoverTipView/blob/master/IMG_0599.PNG)
+![Image](https://github.com/hai00jiao/ZDGuideView/blob/master/IMG_0599.PNG)
 
-![Image](https://github.com/hai00jiao/ZDCoverTipView/blob/master/IMG_0600.PNG)
+![Image](https://github.com/hai00jiao/ZDGuideView/blob/master/IMG_0600.PNG)
 
-![Image](https://github.com/hai00jiao/ZDCoverTipView/blob/master/IMG_0601.PNG)
+![Image](https://github.com/hai00jiao/ZDGuideView/blob/master/IMG_0601.PNG)
 
-![Image](https://github.com/hai00jiao/ZDCoverTipView/blob/master/IMG_0602.PNG)
+![Image](https://github.com/hai00jiao/ZDGuideView/blob/master/IMG_0602.PNG)
 
 
 ## Requirements
@@ -29,15 +29,15 @@ ZDCoverTipView create a guide view easily.
 ## Usage
 
 improt
-* ZDCoverTipView.h
-* ZDCoverTipView.m
+* ZDGuideView.h
+* ZDGuideView.m
 
 
 ## how to use
 
 Create a Tip View
 
-    ZDCoverTipView *tip = [[ZDCoverTipView alloc] initWithBlurRadius:10.0f revealView:_button revealType:_typeSwitch.on?ZDRevealTypeOval:ZDRevealTypeRect];
+    ZDGuideView *tip = [[ZDGuideView alloc] initWithBlurRadius:10.0f revealView:_button revealType:_typeSwitch.on?ZDRevealTypeOval:ZDRevealTypeRect];
 
 show it
     
